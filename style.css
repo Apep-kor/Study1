@@ -1,14 +1,10 @@
-body{
-    cursor:wait;
-    background-color: #2d3436;
-}
 .btn{
     cursor: pointer;
     background-image: url('https://scontent-ort2-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/106111266_314742963246605_920356328354154745_n.jpg?_nc_ht=scontent-ort2-1.cdninstagram.com&_nc_cat=105&_nc_ohc=LDbVMvlNlFsAX8Gflcw&tp=1&oh=554145f85883a2064aedb9e6c419c6a6&oe=602FD419');
     background-size: contain;
     text-shadow: 1px 1px 2px black;
 }
-h1{
+body{
     color:#00b894;
     transition: color 0.5s ease-in-out;
 }
@@ -21,4 +17,12 @@ h1{
 }
 #back{
     background-color: #ffeaa7;
+}
+.form,
+.greetings{
+    display: none;
+}
+
+.showing{
+    display:block;
 }
